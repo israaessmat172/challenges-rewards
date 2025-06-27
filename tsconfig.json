@@ -113,12 +113,14 @@
   
     "target": "ES6",
     "module": "commonjs",
-    "rootDir": "src",
-    "outDir": "dist",
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "outDir": "./dist",
     "esModuleInterop": true,
     "strict": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
-  }
-  
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+  },
+  "include": ["src"]
 }
