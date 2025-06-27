@@ -1,13 +1,12 @@
 import "reflect-metadata";
 import { DataSource } from "typeorm";
-import { UserAuth } from "../models/user-auth";
-import { Challenge } from "../models/challenges";
-import { Submission } from "../models/submissions";
-import { Reward } from "../models/rewards";
-import { PointsHistory } from "../models/points-history";
+import { UserAuth } from "../models/user-auth.models";
+import { Challenge } from "../models/challenges.models";
+import { Submission } from "../models/submissions.models";
+import { Reward } from "../models/rewards.models";
+import { PointsHistory } from "../models/points-history.models";
 import * as dotenv from "dotenv";
 import { env } from "./env";
-
 
 dotenv.config();
 
