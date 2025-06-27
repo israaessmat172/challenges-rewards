@@ -17,7 +17,7 @@ export const dataSource = new DataSource({
   port: parseInt(process.env.PG_PORT || "5432"),
   username: process.env.PG_USERNAME,
   password: process.env.PG_PASSWORD,
-  database: process.env.PG_NAME,
+  database: process.env.PG_DATABASE,
   synchronize: true,
   logging: false,
   entities: [UserAuth, Challenge, Submission, Reward, PointsHistory],

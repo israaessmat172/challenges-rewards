@@ -1,5 +1,4 @@
 import express from "express";
-import { DataSource } from "typeorm";
 import { dataSource } from "./config/typeorm";
 
 const app = express();
